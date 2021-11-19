@@ -6,28 +6,28 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Fully-qualified name for the input artifact
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Fully-qualified name for the output artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Type of the output artifact
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Description of the output artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Min price considered for data analysis
+        type: float
 
       max_price:
-        description: ## ADD DESCRIPTION
-        type: string
+        description: Max price considered for data analysis
+        type: float
 
 
     command: >-
